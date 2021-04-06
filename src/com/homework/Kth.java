@@ -18,10 +18,10 @@ public class Kth {
             long changeNumber = powTen(stepFind - 1) + (indexNumber / stepFind);
             long withoutUp = changeNumber % powTen(stepFind - indexOnNumber + 1);
             long result = withoutUp / powTen(stepFind - indexOnNumber);
-            System.out.println("Значение по индаксу равно: " + result);
+            System.out.println("Значение по индексу равно: " + result);
         } else {
             long changeNumber = powTen(stepFind - 1) + (indexNumber / stepFind) - 1;
-            System.out.println("Значение по индаксу равно: " + changeNumber % 10);
+            System.out.println("Значение по индексу равно: " + changeNumber % 10);
         }
     }
 
