@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// Second Homework
 public class AlgorithmZekendorf {
 
     public static void main(String[] args) {
